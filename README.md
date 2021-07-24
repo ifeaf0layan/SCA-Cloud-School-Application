@@ -17,7 +17,7 @@ The deploy step sounds basically as it is. It deploys or pushes the code to a pr
 ## Used Jenkins Pipeline Syntax in my Jenkins File ##
 
 ### 1. Source (Echo) ###
-The Echo command outputs the strings it is being passed as arguments and here is being used as the source part of my pipeline.
+The Echo is a linux command and not necessarily jenkins pipeline syntax but it outputs strings it is being passed as arguments and here is being used as the source part of my pipeline.
 
 ### 2. Steps ###
 The steps command here is basically indicating an increment and as previously mentioned, until each stage or step is completed, the other does not run. The most fundamental part of a pipeline is the "step". Steps tells Jenkins what to do.
